@@ -4,67 +4,100 @@ body {
     margin: 0;
     padding: 0;
     background: #f8f8f8;
+    color: #333;
     text-align: center;
 }
-header {
-    position: relative;
+.site-title {
+    font-size: 40px;
+    margin: 20px;
 }
-header img {
+.hero-img {
     width: 100%;
     max-height: 400px;
     object-fit: cover;
 }
-.hero {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    background: rgba(0,0,0,0.5);
-    padding: 1em;
-    border-radius: 10px;
-}
-main {
-    padding: 2em;
-}
-section {
-    background: white;
-    margin: 1em auto;
-    padding: 1em;
-    max-width: 600px;
-    border-radius: 8px;
+.header-text {
+    margin: 20px;
 }
 .btn {
     display: inline-block;
-    padding: 0.5em 1em;
-    margin: 0.5em;
-    background: #007bff;
+    background: #007BFF;
     color: white;
-    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
     text-decoration: none;
+    border-radius: 5px;
 }
-form input, form textarea {
+section {
+    padding: 40px 20px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.service-buttons button {
     display: block;
-    width: 90%;
-    margin: 0.5em auto;
-    padding: 0.5em;
-    border: 1px solid #ccc;
-}
-form button {
-    padding: 0.5em 2em;
-    background: #007bff;
+    width: 80%;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
 }
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #25d366;
+.contact-buttons a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
     color: white;
-    padding: 0.8em 1em;
-    border-radius: 50%;
-    font-size: 24px;
     text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.whatsapp-button {
+    background-color: #25D366;
+}
+.sms-button {
+    background-color: #007BFF;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input, form textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.contact-info {
+    margin-top: 20px;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
