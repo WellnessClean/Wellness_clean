@@ -1,62 +1,55 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3f2ed;
     margin: 0;
-    padding: 0;
-    color: #2c3e50;
+    background-color: #f8f7f3;
+    color: #2d2d2d;
 }
-
 header {
     background-color: #dde7de;
+    padding: 2em;
     text-align: center;
-    padding: 40px 20px;
 }
-
-.subtitle {
-    font-size: 18px;
-    color: #5d6d5a;
+header h1 {
+    margin: 0;
+    color: #4a675a;
+    font-size: 2.5em;
 }
-
-.about, .services {
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+}
+section {
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.about, .services, .contact {
     background-color: #ffffff;
-    padding: 30px 20px;
-    margin: 20px;
-    border-radius: 10px;
-}
-
-h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-    color: #2e4a38;
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #344d3f;
-}
-
-button {
-    background-color: #cfe2d8;
-    border: none;
-    color: #2e4a38;
-    padding: 12px 25px;
-    margin: 10px;
+    margin-bottom: 1em;
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+h2 {
+    color: #4a675a;
+}
+.service-buttons button {
+    margin: 0.5em;
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #c7d5c4;
+    color: #333;
+    font-size: 1em;
     cursor: pointer;
-    font-size: 16px;
 }
-
-button:hover {
-    background-color: #b4d2c2;
+.service-buttons button:hover {
+    background-color: #a9bea3;
 }
-
-.whatsapp {
-    display: block;
-    text-align: center;
-    margin: 30px 0;
-    color: #2e4a38;
-    font-weight: bold;
+a {
+    color: #4a675a;
     text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
